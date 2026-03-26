@@ -13,7 +13,7 @@
       echo "::endgroup::"
       exit 1
     fi
-    echo "Deploy thành công."
+    echo "Deploy thành đã thành công."
     echo "::group::Chi tiết webhook JSON"
     echo "$BODY" | python3 -m json.tool 2>/dev/null || echo "$BODY"
     echo "::endgroup::"
