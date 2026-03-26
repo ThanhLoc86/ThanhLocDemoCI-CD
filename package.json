@@ -1,0 +1,16 @@
+{
+  "name": "thanhdemo-app",
+  "version": "1.0.0",
+  "description": "Simple web app with Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": ["nodejs", "express", "demo"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
